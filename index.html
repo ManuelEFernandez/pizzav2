@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="icon" type="image/x-icon" href="/pizzicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pizza</h1>
+    <div class="seccion-izq">
+    <div class="carta-pizza">
+        <div class="caja-pizzas">
+            <h2>Elegí el id de la pizza</h2>
+           
+        </div>
+
+       
+        <form id="formPizzas" class="form-pizzas">
+            <input class="numero-pizza" type="number" id="idPizza" min="0">
+            <button type="submit" id="enviar" class="boton-enviar">VER</button>
+        </form>
+        <img class= "img-pizza" src="pizzita.png" alt="imagen de pizzita">
+    
+    </div>
+</div>
+<div class="seccion-der">
+    <div class="tarjetero">
+        <h2 id="nombrePizza"></h2>
+            <h4 id="precioPizza"></h4>
+            <div class="img-tarjeta" id="img-tarjeta">
+            
+        </div>
+    </div>
+
+    <div class="caja-ingredientes">
+    <div class="ingredientes" id="ingredientes"></div>
+    <ul id="lista-ingredientes"></ul>
+</div>
+</div>
+    
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
+
