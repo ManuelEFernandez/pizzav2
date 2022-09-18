@@ -54,7 +54,7 @@ const pizzas = [
     {
       id: 6,
       nombre: "Fugazzetta (porción)",
-      ingredientes: ["Queso muzarella", "Jamón"],
+      ingredientes: ["Queso muzarella", "Cebolla"],
       precio: 400,
       imagen: "/fugazzeta.jpg",
       alt: "pizza fugazzeta",
